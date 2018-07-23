@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CE1A3BA821068B8A00E57567 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BA721068B8A00E57567 /* main.swift */; };
+		CE1A3BB021068C1300E57567 /* FullTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BAF21068C1300E57567 /* FullTime.swift */; };
+		CE1A3BB221068C2200E57567 /* Intern.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BB121068C2200E57567 /* Intern.swift */; };
+		CE1A3BB521068C4100E57567 /* CommissionBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BB421068C4100E57567 /* CommissionBased.swift */; };
+		CE1A3BB721068C5100E57567 /* FixedBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BB621068C5100E57567 /* FixedBased.swift */; };
+		CE1A3BBA21068C7500E57567 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BB921068C7500E57567 /* Car.swift */; };
+		CE1A3BBC21068C8900E57567 /* Motorcycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BBB21068C8900E57567 /* Motorcycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		CE1A3BA421068B8A00E57567 /* Group2_FinalProject_Payroll */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Group2_FinalProject_Payroll; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1A3BA721068B8A00E57567 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CE1A3BAF21068C1300E57567 /* FullTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullTime.swift; sourceTree = "<group>"; };
+		CE1A3BB121068C2200E57567 /* Intern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Intern.swift; sourceTree = "<group>"; };
+		CE1A3BB421068C4100E57567 /* CommissionBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommissionBased.swift; sourceTree = "<group>"; };
+		CE1A3BB621068C5100E57567 /* FixedBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedBased.swift; sourceTree = "<group>"; };
+		CE1A3BB921068C7500E57567 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CE1A3BBB21068C8900E57567 /* Motorcycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motorcycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +69,39 @@
 		CE1A3BA621068B8A00E57567 /* Group2_FinalProject_Payroll */ = {
 			isa = PBXGroup;
 			children = (
+				CE1A3BB821068C5E00E57567 /* Vehicle */,
+				CE1A3BAE21068BFA00E57567 /* Employee */,
 				CE1A3BA721068B8A00E57567 /* main.swift */,
 			);
 			path = Group2_FinalProject_Payroll;
+			sourceTree = "<group>";
+		};
+		CE1A3BAE21068BFA00E57567 /* Employee */ = {
+			isa = PBXGroup;
+			children = (
+				CE1A3BB321068C2600E57567 /* PartTime */,
+				CE1A3BAF21068C1300E57567 /* FullTime.swift */,
+				CE1A3BB121068C2200E57567 /* Intern.swift */,
+			);
+			path = Employee;
+			sourceTree = "<group>";
+		};
+		CE1A3BB321068C2600E57567 /* PartTime */ = {
+			isa = PBXGroup;
+			children = (
+				CE1A3BB421068C4100E57567 /* CommissionBased.swift */,
+				CE1A3BB621068C5100E57567 /* FixedBased.swift */,
+			);
+			path = PartTime;
+			sourceTree = "<group>";
+		};
+		CE1A3BB821068C5E00E57567 /* Vehicle */ = {
+			isa = PBXGroup;
+			children = (
+				CE1A3BB921068C7500E57567 /* Car.swift */,
+				CE1A3BBB21068C8900E57567 /* Motorcycle.swift */,
+			);
+			path = Vehicle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1A3BB521068C4100E57567 /* CommissionBased.swift in Sources */,
+				CE1A3BB721068C5100E57567 /* FixedBased.swift in Sources */,
+				CE1A3BBA21068C7500E57567 /* Car.swift in Sources */,
 				CE1A3BA821068B8A00E57567 /* main.swift in Sources */,
+				CE1A3BB221068C2200E57567 /* Intern.swift in Sources */,
+				CE1A3BB021068C1300E57567 /* FullTime.swift in Sources */,
+				CE1A3BBC21068C8900E57567 /* Motorcycle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
