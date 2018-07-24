@@ -10,3 +10,6 @@ import Foundation
 
 print("Hello, World!")
 
+//To get current Directory
+let cwd = FileManager.default.currentDirectoryPath
+print("script run from:\n" + cwd)

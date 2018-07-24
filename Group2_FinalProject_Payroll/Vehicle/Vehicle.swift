@@ -20,6 +20,6 @@ class Vehicle
     }
     
     func printMyData() {
-        print("Make: \(make) \n Plate: \(plate)")
+        print("Make: \(make!) \n Plate: \(plate!)")
     }
 }
