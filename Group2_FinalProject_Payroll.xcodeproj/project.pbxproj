@@ -18,6 +18,7 @@
 		CE1A3BC021068EB700E57567 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BBF21068EB700E57567 /* Vehicle.swift */; };
 		CE1A3BC221068F3200E57567 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BC121068F3200E57567 /* Util.swift */; };
 		CE1A3BC42106967200E57567 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BC32106967200E57567 /* PartTime.swift */; };
+		CE9A3D212107D37300B0AC67 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A3D202107D37300B0AC67 /* Json.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +46,7 @@
 		CE1A3BBF21068EB700E57567 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		CE1A3BC121068F3200E57567 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		CE1A3BC32106967200E57567 /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
+		CE9A3D202107D37300B0AC67 /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				CE1A3BA721068B8A00E57567 /* main.swift */,
 				CE1A3BBD21068D3300E57567 /* Employee.swift */,
 				CE1A3BC121068F3200E57567 /* Util.swift */,
+				CE9A3D202107D37300B0AC67 /* Json.swift */,
 			);
 			path = Group2_FinalProject_Payroll;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 				CE1A3BC021068EB700E57567 /* Vehicle.swift in Sources */,
 				CE1A3BB521068C4100E57567 /* CommissionBased.swift in Sources */,
 				CE1A3BBE21068D3300E57567 /* Employee.swift in Sources */,
+				CE9A3D212107D37300B0AC67 /* Json.swift in Sources */,
 				CE1A3BB721068C5100E57567 /* FixedBased.swift in Sources */,
 				CE1A3BBA21068C7500E57567 /* Car.swift in Sources */,
 				CE1A3BA821068B8A00E57567 /* main.swift in Sources */,
