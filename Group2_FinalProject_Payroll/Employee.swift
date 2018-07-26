@@ -12,10 +12,10 @@ class Employee
 {
     var employeeId: Int?
     var employeeName: String?
-    var age: Date?
+    var age: Int?
     var vehicle: Vehicle?
     
-    init(employeeId: Int, employeeName: String, age: Date)
+    init(employeeId: Int, employeeName: String, age: Int)
     {
         self.employeeId = employeeId
         self.employeeName = employeeName

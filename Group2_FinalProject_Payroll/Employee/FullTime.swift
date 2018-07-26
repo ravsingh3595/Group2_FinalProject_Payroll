@@ -13,7 +13,7 @@ class FullTime: Employee
     var salary: Double?
     var bonus: Double?
     
-    init(employeeId: Int, employeeName: String, age: Date, salary: Double, bonus: Double)
+    init(employeeId: Int, employeeName: String, age: Int, salary: Double, bonus: Double)
     {
         super.init(employeeId: employeeId, employeeName: employeeName, age: age)
         self.salary = salary

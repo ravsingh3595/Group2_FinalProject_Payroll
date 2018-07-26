@@ -12,7 +12,7 @@ class Intern: Employee
 {
     var schoolName: String?
     
-    init(employeeId: Int, employeeName: String, age: Date, schoolName: String)
+    init(employeeId: Int, employeeName: String, age: Int, schoolName: String)
     {
         super.init(employeeId: employeeId, employeeName: employeeName, age: age)
         self.schoolName = schoolName

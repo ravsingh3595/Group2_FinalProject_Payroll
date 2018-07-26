@@ -14,12 +14,14 @@ print("Hello, World!")
 let cwd = FileManager.default.currentDirectoryPath
 print("script run from:\n" + cwd)
 
-if let filePath = Bundle.main.url(forResource: "EmployeeData", withExtension: "json"){
+if let filePath = Bundle.main.url(forResource: "Employee", withExtension: "json"){
 
     do {
         let data = try Data(contentsOf: filePath)
-        let json = try JSONSerialization.jsonObject(with: data as Data, options: JSONSerialization.ReadingOptions.allowFragments)
-        print(json)
+        let jsonDict: [Dictionary<String, Any>] = try JSONSerialization.jsonObject(with: data as Data, options: JSONSerialization.ReadingOptions.allowFragments) as! [Dictionary<String, Any>]
+        print(jsonDict)
+        var csvObj = CSVFile()
+        csvObj.createCSV(from: jsonDict)
     }
     catch {
         //Handle error
