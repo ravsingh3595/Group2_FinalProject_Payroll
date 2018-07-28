@@ -10,21 +10,28 @@ import Foundation
 
 class CommissionBased: PartTime
 {
-    var commissionPercentage: Double?
-    
-    init(employeeId: Int, employeeName: String, age: Date, rate: Double, hoursWorked: Double, commissionPercentage: Double)
+    private var commissionPercentage: Double?
+    var _commissionPercentage: Double?
     {
-        super.init(employeeId: employeeId, employeeName: employeeName, age: age, rate: rate, hoursWorked: hoursWorked)
+        get{
+            return commissionPercentage
+        }
+    }
+    
+    init(employeeId: Int, employeeName: String, age: Int, rate: Double, hoursWorked: Double, commissionPercentage: Double, vehicle: Vehicle)
+    {
+        super.init(employeeId: employeeId, employeeName: employeeName, age: age, rate: rate, hoursWorked: hoursWorked, vehicle: vehicle)
         self.commissionPercentage = commissionPercentage
     }
     
-    func calEarning() -> Double
+    override func calEarning() -> Double
     {
-        return (rate! * hoursWorked!) + commissionPercentage!
+        return (_rate! * _hoursWorked!) + commissionPercentage!
     }
     
     override func printMyData()
     {
+        super.printMyData()
         print("Commission Percentage: \(commissionPercentage!)")
         print("Earnings: \(calEarning())")
     }

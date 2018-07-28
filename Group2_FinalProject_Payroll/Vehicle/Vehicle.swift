@@ -10,8 +10,36 @@ import Foundation
 
 class Vehicle
 {
-    var make: String?
-    var plate: String?
+    private var make: String?
+    var _make: String?
+    {
+        get{
+            return make
+        }
+    }
+    
+    private var plate: String?
+    var _plate: String?
+    {
+        get{
+            return plate
+        }
+    }
+    private var vehicleType: String?
+    var _vehicleType: String?
+    {
+        get{
+            return vehicleType
+        }
+        set(newValue)
+        {
+            vehicleType = newValue
+        }
+    }
+    
+    init() {
+        
+    }
     
     init(make: String, plate: String)
     {

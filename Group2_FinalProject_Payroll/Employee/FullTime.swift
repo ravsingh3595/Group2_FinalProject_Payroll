@@ -10,22 +10,36 @@ import Foundation
 
 class FullTime: Employee
 {
-    var salary: Double?
-    var bonus: Double?
-    
-    init(employeeId: Int, employeeName: String, age: Date, salary: Double, bonus: Double)
+    private var salary: Double?
+    var _salary: Double?
     {
-        super.init(employeeId: employeeId, employeeName: employeeName, age: age)
+        get{
+            return salary
+        }
+    }
+    
+    private var bonus: Double?
+    var _bonus: Double?
+    {
+        get{
+            return bonus
+        }
+    }
+    
+    init(employeeId: Int, employeeName: String, age: Int, salary: Double, bonus: Double, vehicle: Vehicle)
+    {
+        super.init(employeeId: employeeId, employeeName: employeeName, age: age, vehicle: vehicle)
         self.salary = salary
         self.bonus = bonus
     }
     
-    func calEarning() -> Double {
+    override func calEarning() -> Double {
         return salary! + bonus!
     }
     
     override func printMyData()
     {
+        super.printMyData()
         print("Salary: \(salary!) \n Bonus: \(bonus!)")
         print("Earnings: \(calEarning())")
     }
