@@ -32,7 +32,8 @@ class FixedBased: PartTime
     override func printMyData()
     {
         super.printMyData()
-        print("Fixed Amount: \(fixedAmount!)")
+        print("Employee is a Fixed Amount/ PartTime")
+        print("\tFixed Amount: \(fixedAmount!)")
         print("Earnings: \(calEarning())")
     }
 }

@@ -28,6 +28,6 @@ class Motorcycle: Vehicle
     {
         print("Employee has a Motorcycle")
         super.printMyData()
-        print("Is Long Distance bike: \(isLongDistance!)")
+        print("\tIs Long Distance bike: \(isLongDistance!)")
     }
 }

@@ -40,7 +40,8 @@ class FullTime: Employee
     override func printMyData()
     {
         super.printMyData()
-        print("Salary: \(salary!) \n Bonus: \(bonus!)")
+        print("Employee is a FullTime")
+        print("\tSalary: \(salary!) \n\tBonus: \(bonus!)")
         print("Earnings: \(calEarning())")
     }
 }
