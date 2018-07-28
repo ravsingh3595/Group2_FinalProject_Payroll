@@ -39,6 +39,6 @@ class PartTime: Employee
     override func printMyData()
     {
         super.printMyData()
-        print("Rate: \(rate!) \n Hours Worked: \(hoursWorked!)")
+        print("\tRate: \(rate!) \n\tHours Worked: \(hoursWorked!)")
     }
 }
