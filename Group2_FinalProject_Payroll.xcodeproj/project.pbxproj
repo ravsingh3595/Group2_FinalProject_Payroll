@@ -20,6 +20,7 @@
 		CE1A3BC42106967200E57567 /* PartTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1A3BC32106967200E57567 /* PartTime.swift */; };
 		CE9A3D212107D37300B0AC67 /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9A3D202107D37300B0AC67 /* Json.swift */; };
 		CECCC570210C3A6F002762DC /* CSVEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCC56F210C3A6F002762DC /* CSVEmployee.swift */; };
+		CECCC573210C3E0C002762DC /* IPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECCC572210C3E0C002762DC /* IPrintable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,7 @@
 		CE1A3BC32106967200E57567 /* PartTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartTime.swift; sourceTree = "<group>"; };
 		CE9A3D202107D37300B0AC67 /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
 		CECCC56F210C3A6F002762DC /* CSVEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSVEmployee.swift; sourceTree = "<group>"; };
+		CECCC572210C3E0C002762DC /* IPrintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPrintable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		CE1A3BA621068B8A00E57567 /* Group2_FinalProject_Payroll */ = {
 			isa = PBXGroup;
 			children = (
+				CECCC571210C3DF1002762DC /* Protocol */,
 				CE1A3BB821068C5E00E57567 /* Vehicle */,
 				CE1A3BAE21068BFA00E57567 /* Employee */,
 				CE1A3BA721068B8A00E57567 /* main.swift */,
@@ -120,6 +123,14 @@
 				CE1A3BBF21068EB700E57567 /* Vehicle.swift */,
 			);
 			path = Vehicle;
+			sourceTree = "<group>";
+		};
+		CECCC571210C3DF1002762DC /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				CECCC572210C3E0C002762DC /* IPrintable.swift */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 				CECCC570210C3A6F002762DC /* CSVEmployee.swift in Sources */,
 				CE1A3BB721068C5100E57567 /* FixedBased.swift in Sources */,
 				CE1A3BBA21068C7500E57567 /* Car.swift in Sources */,
+				CECCC573210C3E0C002762DC /* IPrintable.swift in Sources */,
 				CE1A3BA821068B8A00E57567 /* main.swift in Sources */,
 				CE1A3BB221068C2200E57567 /* Intern.swift in Sources */,
 				CE1A3BC221068F3200E57567 /* Util.swift in Sources */,
